@@ -1,6 +1,6 @@
 # Session 17: prompt evaluation - v1 baseline vs v2 structured
 
-Answering model: `openai/gpt-oss-20b` · Judge model: `openai/gpt-oss-20b` · Date: 2026-11-05
+Answering model: `openai/gpt-oss-20b` · Judge model: `openai/gpt-oss-20b` · Date: 2026-11-10
 
 | Criterion | v1 (S14 baseline) | v2 (S16 structured) |
 |---|---|---|

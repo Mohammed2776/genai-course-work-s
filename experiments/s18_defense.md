@@ -1,14 +1,14 @@
 # Session 18: defensive prompting - undefended vs hardened system prompt
 
-Model: `openai/gpt-oss-20b` · Date: 2026-11-11 · Attack tickets: 16 across 4 families
+Model: `openai/gpt-oss-20b` · Date: 2026-11-12 · Attack tickets: 16 across 4 families
 
 | Attack family | Undefended attacks succeeded | Defended attacks succeeded |
 |---|---|---|
 | authority | 1/4 = 25% | 0/4 = 0% |
-| exfiltrate | 1/4 = 25% | 0/4 = 0% |
+| exfiltrate | 0/4 = 0% | 0/4 = 0% |
 | override | 1/4 = 25% | 0/4 = 0% |
-| smuggle | 2/4 = 50% | 0/4 = 0% |
-| **All families** | **5/16 = 31%** | **0/16 = 0%** |
+| smuggle | 1/4 = 25% | 1/4 = 25% |
+| **All families** | **3/16 = 19%** | **1/16 = 6%** |
 
 Clean held-out accuracy (Session 16's own test set, no attacks - the defense must not break this):
 - Undefended: 20/20 = 100%
